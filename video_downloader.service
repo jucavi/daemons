@@ -1,0 +1,10 @@
+[Unit]
+Description=Video Downloader
+After=network.target
+
+[Service]
+WorkingDirectory=/home/user/<PATH-TO-PROJECT>
+ExecStart=/home/<PATH-TO-PROJECT>/.venv/bin/python <PATH-TO-YOUR-SCRIPT>.py
+
+[Install]
+WantedBy=multi-user.target
