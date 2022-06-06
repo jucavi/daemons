@@ -4,7 +4,7 @@
 ```
 $ sudo systemctl --force --full edit <SCRIPT-NAME>.service
 ```
-And paste the content of <SCRIPT-NAME>.service file located in this folder (e.g. filterbot.service)
+..* *and paste the content of .service file located in this folder (e.g. filterbot.service)*
 
 
 2. Save it and reload all Systemd services via
