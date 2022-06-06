@@ -10,7 +10,7 @@ This will return something like /usr/bin/python, use this later as <PYTHON-PATH>
 ```
 $ sudo systemctl --force --full- edit <SCRIPT-NAME>.service
 ```
-And paste the content of <SCRIPT-NAME>.service file located in this folder
+And paste the content of <SCRIPT-NAME>.service file located in this folder (e.g. filterbot.service)
 
 
 3.Save it and reload all Systemd services via
