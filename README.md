@@ -1,24 +1,18 @@
 # HOW TO
 
-1. Find the path to your python runtime.
+1. Create service:
 ```
-$ which python3
-```
-This will return something like /usr/bin/python, use this later as <PYTHON-PATH>
-
-2. Create service:
-```
-$ sudo systemctl --force --full- edit <SCRIPT-NAME>.service
+$ sudo systemctl --force --full edit <SCRIPT-NAME>.service
 ```
 And paste the content of <SCRIPT-NAME>.service file located in this folder (e.g. filterbot.service)
 
 
-3.Save it and reload all Systemd services via
+2.Save it and reload all Systemd services via
 ```
 $ sudo systemctl daemon-reload
 ```
 
-4. Enable autostart on boot of your new service
+3. Enable autostart on boot of your new service
 ```
 $ sudo systemctl enable <SCRIPT-NAME>.service
 ```
