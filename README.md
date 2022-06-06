@@ -1,13 +1,13 @@
 # HOW TO
 
-1. Create service:
+1. Create service
 ```
 $ sudo systemctl --force --full edit <SCRIPT-NAME>.service
 ```
 And paste the content of <SCRIPT-NAME>.service file located in this folder (e.g. filterbot.service)
 
 
-2.Save it and reload all Systemd services via
+2. Save it and reload all Systemd services via
 ```
 $ sudo systemctl daemon-reload
 ```
@@ -16,8 +16,6 @@ $ sudo systemctl daemon-reload
 ```
 $ sudo systemctl enable <SCRIPT-NAME>.service
 ```
-
-
 
 # Stop & Restart
 
